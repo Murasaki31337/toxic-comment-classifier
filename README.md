@@ -21,7 +21,7 @@ This project is a full-stack machine learning web application that classifies us
 
 ### 1. Clone the repository
 ```
-git clone <your-repo-url>
+git clone https://github.com/Murasaki31337/toxic-comment-classifier.git 
 cd toxic_classifier
 ```
 
