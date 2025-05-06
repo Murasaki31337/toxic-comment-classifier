@@ -15,7 +15,7 @@ model = load_model("backend/lstm_model.keras")
 
 tokenizer = joblib.load("backend/tokenizer.joblib")
 labels = ['toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate']
-max_len = 200
+max_len = 400
 last_input = {"text": ""}
 
 @app.get("/", response_class=HTMLResponse)
